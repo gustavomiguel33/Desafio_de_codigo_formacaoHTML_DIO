@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header .navbar .container-fluid .navbar-collapse ul li a {
+  color: #FFF;
+}
+
+.main p {
+  text-indent: 2rem;
+}
+.main .tag-exemple {
+  background-color: rgba(204, 204, 204, 0.4588235294);
+  border-radius: 0.5rem;
+  border: 1px solid #0f0f0f;
+}/*# sourceMappingURL=style.css.map */

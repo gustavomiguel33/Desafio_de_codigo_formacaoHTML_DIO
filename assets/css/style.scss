@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  .navbar {
+    .container-fluid {
+      .navbar-collapse {
+        ul {
+          li {
+            a {
+              color: #FFF;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.main {
+  p {
+    text-indent: 2rem;
+  }
+
+  .tag-exemple {
+    background-color: #cccccc75;
+    border-radius: .5rem;
+    border: 1px solid #0f0f0f;
+  }
+}
