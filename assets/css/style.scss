@@ -7,9 +7,13 @@
 .header {
   .navbar {
     .container-fluid {
+      .logo {
+        margin-left: 1rem;
+      }
       .navbar-collapse {
         ul {
           li {
+            margin: 0 1rem;
             a {
               color: #FFF;
             }

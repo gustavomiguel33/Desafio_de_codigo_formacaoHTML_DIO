@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.header .navbar .container-fluid .logo {
+  margin-left: 1rem;
+}
+.header .navbar .container-fluid .navbar-collapse ul li {
+  margin: 0 1rem;
+}
 .header .navbar .container-fluid .navbar-collapse ul li a {
   color: #FFF;
 }
