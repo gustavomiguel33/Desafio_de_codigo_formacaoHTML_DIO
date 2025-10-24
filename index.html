@@ -38,7 +38,7 @@
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Tags</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tags">Tags</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
           </ul>
         </div>
@@ -47,7 +47,7 @@
   </header>
 
 
-  <main class="main container mt-4">
+  <main class="main container mt-4 p-4">
 
     <section class="about" id="about">
 
@@ -93,7 +93,7 @@
     </section>
 
 
-    <div class="how-it-works">
+    <section class="how-it-works">
       <h2 class="text-center m-4">Como o HTML funciona?</h2>
 
       <p>
@@ -123,7 +123,7 @@
       <p>
         O termo tag, corresponde a etiqueta em inglês. Uma tag típica, tem começo e fim, ou melhor dizendo é composta de uma tag de abertura e uma de fechamento e por essa razão que informamos anteriormente que há duas tags associadas a um parágrafo. Dessa forma, a construção a seguir será interpretada como um parágrafo pelos navegadores:
         <br>
-        <div class="tag-exemple p-2">
+        <div class="tag-exemple p-2" id="tags">
           &lt;p&gt; Isso é um parágrafo! &lt;/p&gt;
         </div>
       </p>
@@ -139,7 +139,113 @@
           &lt;a&gt; link &lt;/a&gt;
         </div>
       </p>
-    </div>
+
+      <p>
+        O que está entre a tag de abertura e a de fechamento, é o que o navegador devem modificar e exibir como tal, que no caso de um link, vem geralmente visualmente modificado com um sublinhado e cor padrão azul.
+      </p>
+
+      <p>
+        No entanto, há tags que não têm uma tag de fechamento correspondente, porque não têm um conteúdo que é modificado por elas e cujo exemplo mais usado, é a que simplesmente adiciona uma quebra (break) de linha no texto que está sendo exibido e é representada por:
+      </p>
+
+      <div class="tag-exemple p-2">
+        &lt;br/&gt;
+      </div>
+
+      <p>
+        E você mesmo sem qualquer ferramenta específica pode criar um HTML básico e verificar seu funcionamento, tendo como únicos requisitos um editor de texto bem básico, como o notepad do Windows e um navegador. Para tanto, basta digitar o conteúdo abaixo e salvá-lo como por exemplo, meuprimeirosite.html e depois abri-lo em seu navegador:
+      </p>
+
+      <div class="tag-exemple p-2">
+        &lt;html&gt;
+        <br>
+        &lt;head&gt;
+        <br>
+        &lt;title&gt;Título da Página&lt;/title&gt;
+        <br>
+        &lt;/head&gt;
+        <br>
+        &lt;body&gt;
+        <br><br>
+
+        &lt;h1&gt; Meu primeiro site &lt;/h1&gt;
+        <br>
+        &lt;p&gt; Meu primeiro parágrafo &lt;/p&gt;
+        <br>
+        &lt;p&gt; Meu segundo parágrafo &lt;/p&gt;
+        <br><br>
+
+        &lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+      </div>
+
+      <h6 class="mt-4">Vale ressaltar alguns pontos em relação ao HTML acima:</h6>
+
+      <ol>
+        <li class="mt-4">
+          Este é apenas um artigo sobre o que é HTML e alguns fundamentos de como funciona a linguagem de marcação e não pretende ser nem mesmo uma introdução a linguagem. Aqueles que têm intenção de se aprofundar no assunto, devem buscar um conteúdo mais amplo e que vai bem além da linguagem;
+        </li>
+        <li class="mt-4">
+          O W3C, que é a entidade que estabelece padrões de como as coisas devem ser feitas na Web, determina aspectos mais amplos e outros elementos HTML que devem constar mesmo das páginas de sites mais simples;
+        </li>
+        <li class="mt-4">
+          Mesmo que essa página – se é que podemos classificá-la como tal – seja bastante rudimentar, é possível entender na prática como que o HTML funciona;
+        </li>
+        <li class="mt-4">
+          No mundo real, muitos sites dos mais antigos e simples, aos mais sofisticados e atuais, não necessariamente precisam ser feitos com mais do que um editor e um navegador e que é uma das características que permitiu a democratização e inclusão de muitas pessoas e empresas na Internet, mesmo sabendo que na prática são utilizadas muitas ferramentas que facilitam e aceleram o processo de criação, como por exemplo, os CMSs;
+        </li>
+        <li class="mt-4">
+          O exemplo evidencia o que é uma linguagem de marcação, na medida em que são inseridas “marcas” em um conteúdo de texto, alterando-o conforme se instrui o navegador de que forma ele deve renderizar um conteúdo qualquer.
+        </li>
+      </ol>
+    </section>
+
+    <section class="the-importance">
+      <h2>A importância do HTML</h2>
+
+      <p>
+        Como vimos no exemplo de uso da linguagem, criar um conteúdo usando o HTML para melhor exibi-lo, é tarefa simples e que produz resultados a partir de conhecimentos bastante básicos e acessíveis a qualquer pessoa. Essa simplicidade e facilidade, foram os principais fatores de impulsionamento dos primeiros sites na Internet.
+      </p>
+
+      <p>
+        Quem tem mais tempo na Internet e pôde acompanhar os sites que eram produzidos e publicados em meados dos anos 90 até meados de 2000, há de se lembrar da simplicidade que muitos tinham e que não impediu que muitos deles fossem acessados por muitos visitantes, tornando-se famosos e permitindo que posteriormente evoluissem.
+      </p>
+
+      <p>
+        Naquela época, poucas horas de aprendizado e treino, eram suficientes para que qualquer um desse o primeiro passo para marcar sua presença digital. Ter um site, mesmo que simples, já era melhor do que não ter site algum.
+      </p>
+
+      <p>
+        Naturalmente e como tudo na vida – especialmente quando o assunto é tecnologia – há evoluções e aprimoramentos e com o HTML não foi diferente. Se ainda há muitos sites baseados na versão 4.1 da linguagem, após muito tempo, estudos, testes, discussões, finalmente temos o HTML 5, o qual coloca a disposição dos desenvolvedores, novas e melhores formas de se apresentar conteúdo.
+      </p>
+
+      <p>
+        Aliado a isso, é importante que se saiba que mesmo não sendo necessário mais do que pouquíssimos recursos, criar mesmo que um simples site institucional com aparência e destinação profissionais, requer conhecimento sobre um grande acervo de tecnologias que são empregadas por um web designer experiente e mesmo pelas grandes agências, com o objetivo de produzir sites fantásticos, ainda que façam uso de HTML.
+      </p>
+
+      <p>
+        Se antes bastava conhecer CSS (Cascading Style Sheets) para dar uma aparência mais agradável ao produto final e um pouco de programação baseada na linguagem de programação Javascript, para incluir um formulário ou algum tipo de interação na interface criada para o usuário, como um menu mais sofisticado em termos de opções, hoje a criação de sites dinâmicos exige dominar um acervo de conhecimentos como uma linguagem de programação server-side (lado do servidor), como por exemplo o PHP, bancos de dados, criação / manipulação de imagens, entre outros conhecimentos que ampliam o leque de opções de criação.
+      </p>
+
+      <p>
+        Mas é inegável que mesmo hoje, o HTML ainda representa um importante pilar sobre o qual são construídas as mais diversas opções de sites e que sobreviveu a outras tentativas de fornecer alternativas para criação de sites, como foi o caso da tecnologia Flash, da Adobe, a qual em certo momento pareceu ameaçar o reinado do HTML, mas que sucumbiu e que hoje praticamente inexiste.
+      </p>
+
+      <p>
+        Por fim, mas não menos importante, é fundamental saber que foi graças ao HTML que não apenas muitas pessoas puderam ingressar na Internet por meio da simplicidade oferecida na elaboração de um site por elas mesmas, mas que abriu as portas para muitos dos profissionais de criação que hoje desenvolveram-se e puderam ser empreendedores do setor, graças as suas características e a acessibilidade para publicar e manter um site, oferecidas por modelos de hospedagem, como a hospedagem compartilhada ou revenda de hospedagem.
+      </p>
+
+      <p>
+        Muita gente que aí está trabalhando na criação e desenvolvimento de sites, começou baixando um PDF sobre HTML, de algum site feito por alguém que deu o primeiro passo exatamente da mesma forma! Se hoje existem bilhões de sites publicados, pode-se dizer sem medo de errar, que muito se deveu ao HTML!
+      </p>
+
+      <h4>Conclusão</h4>
+
+      <p>
+        O HTML é uma linguagem de marcação – e não de programação – que representa o desenvolvimento da Internet, especialmente no que diz respeito aos sites, aos patamares do que a rede representa hoje na vida das pessoas. Não é exagero dizer, que boa parte do que temos hoje, deve-se ao surgimento e desenvolvimento da linguagem ao longo de sua história.
+      </p>
+    </section>
 
   </main>
 
