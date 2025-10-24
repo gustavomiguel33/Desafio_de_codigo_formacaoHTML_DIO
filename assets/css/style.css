@@ -13,9 +13,13 @@
 .header .navbar .container-fluid .navbar-collapse ul li a {
   color: #FFF;
 }
+.header .navbar .container-fluid .navbar-collapse ul li a:hover {
+  color: #E44D26;
+}
 
 .main p {
-  text-indent: 2rem;
+  text-align: justify;
+  margin: 2rem 0;
 }
 .main .tag-exemple {
   background-color: rgba(204, 204, 204, 0.4588235294);

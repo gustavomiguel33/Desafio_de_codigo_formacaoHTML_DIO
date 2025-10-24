@@ -16,6 +16,10 @@
             margin: 0 1rem;
             a {
               color: #FFF;
+
+              &:hover {
+                color: #E44D26;
+              }
             }
           }
         }
@@ -26,7 +30,8 @@
 
 .main {
   p {
-    text-indent: 2rem;
+    text-align: justify;
+    margin: 2rem 0;
   }
 
   .tag-exemple {
